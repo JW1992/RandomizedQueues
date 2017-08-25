@@ -107,8 +107,12 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
    		RndQueue.enqueue(5);
    		for(Integer nTemp:RndQueue) StdOut.println(nTemp);
    		StdOut.println(RndQueue.sample());
+   		StdOut.println("bovious");
    		for(Integer nTemp:RndQueue) StdOut.println(nTemp);
    		StdOut.println(RndQueue.dequeue());
+   		StdOut.println("bovious");
    		for(Integer nTemp:RndQueue) StdOut.println(nTemp);
+   		StdOut.println("Size of queue:");
+   		StdOut.println(RndQueue.size());
    	}
 }
